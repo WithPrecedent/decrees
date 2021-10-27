@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "decrees"
+version = "0.1.0"
+description = "easy, flexible system for configuration"
+authors = ["Corey Rayburn Yung <coreyrayburnyung@gmail.com>"]
+license = "Apache"
+readme = "README.md"
+homepage = "https://github.com/WithPrecedent/decrees"
+repository = "https://github.com/WithPrecedent/decrees"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+more-itertools = "^8.10.0"
+bunches = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
